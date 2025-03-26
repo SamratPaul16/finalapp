@@ -4,11 +4,11 @@
 
     <item
         android:id="@+id/nav_disease_severity"
-        android:title="Disease Severity"
+        android:title="Disease Incidence"
         android:icon="@drawable/severity" />
     <item
         android:id="@+id/nav_developers"
         android:icon="@drawable/ic_developers"
-        android:title="Developers" />
+        android:title="Team" />
 
 </menu>

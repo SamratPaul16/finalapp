@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">YOLO Detector</string>
+    <string name="app_name">Leaf X</string>
     <string name="select_image">Select Image</string>
     <string name="use_camera">Use Camera</string>
     <string name="demo_image_desc">Demo Image</string>

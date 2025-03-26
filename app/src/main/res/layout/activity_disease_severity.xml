@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:padding="26dp"
-        android:text="Severity will be shown here"
+        android:text="DI will be shown here"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="italic"

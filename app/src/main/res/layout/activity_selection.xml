@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".SelectionActivity">
+
+    <!-- Main Content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Demo Image -->
+        <ImageView
+            android:id="@+id/demoImage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/test"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/selectButton"
+            app:layout_constraintHeight_percent="0.5"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/demo_image_desc"/>
+
+        <!-- Select Button -->
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            style="@style/CustomButton.Transparent"
+            android:drawableTop="@drawable/ic_select"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Select"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/predictButton"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/demoImage"
+            app:layout_constraintWidth_percent="0.45" />
+
+        <!-- Predict Button -->
+        <Button
+            android:id="@+id/predictButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            style="@style/CustomButton.Transparent"
+            android:drawableTop="@drawable/ic_predict"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Predict"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toEndOf="@id/selectButton"
+            app:layout_constraintTop_toBottomOf="@id/demoImage"
+            app:layout_constraintWidth_percent="0.45" />
+
+        <!-- Camera Button -->
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            style="@style/CustomButton.Transparent"
+            android:drawableTop="@drawable/ic_camera"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Camera"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/resultsButton"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selectButton"
+            app:layout_constraintWidth_percent="0.45" />
+
+        <!-- Results Button -->
+        <Button
+            android:id="@+id/resultsButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            style="@style/CustomButton.Transparent"
+            android:drawableTop="@drawable/ic_results"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Results"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toEndOf="@id/cameraButton"
+            app:layout_constraintTop_toBottomOf="@id/predictButton"
+            app:layout_constraintWidth_percent="0.45" />
+
+        <!-- Notification Badge -->
+        <TextView
+            android:id="@+id/notificationBadge"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@id/resultsButton"
+            app:layout_constraintBottom_toTopOf="@id/resultsButton"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Navigation View -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_navigation"/>
+</androidx.drawerlayout.widget.DrawerLayout>

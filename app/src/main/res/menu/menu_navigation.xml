@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_disease_severity"
+        android:title="Disease Severity"
+        android:icon="@drawable/severity" />
+    <item
+        android:id="@+id/nav_developers"
+        android:icon="@drawable/ic_developers"
+        android:title="Developers" />
+
+</menu>

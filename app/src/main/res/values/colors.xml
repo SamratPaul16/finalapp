@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryVariant">#FF3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorButton">#FFA500</color> <!-- Orange color -->
+    <color name="black">#000000</color> <!-- Black color -->
+    <color name="white">#FFFFFF</color> <!-- White color -->
+    <color name="bounding_box_color">#F40418</color> <!-- Bounding box color -->
+    <color name="primaryTextColor">#000000</color> <!-- Added for primary text -->
+    <color name="secondaryTextColor">#757575</color> <!-- Added for secondary text -->
+    <color name="buttonColor1">#FF5733</color>
+    <color name="buttonColor2">#33FF57</color>
+    <color name="buttonColor3">#3357FF</color>
+    <color name="buttonColor4">#FF33A1</color>
+</resources>

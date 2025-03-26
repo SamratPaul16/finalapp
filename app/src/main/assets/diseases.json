@@ -1,0 +1,58 @@
+{
+  "Chilli": [
+    {
+      "name": "Broad Mites",
+      "scientificName": "Polyphagotarsonemus latus",
+      "symptoms": [
+        "Leaf and Plant Deformation: Leaves become distorted, curled, and thickened, often taking on a finger-like appearance.",
+        "New growth is stunted and deformed.",
+        "Petioles (leaf stalks) become elongated.",
+        "Flower buds and young fruits may drop prematurely.",
+        "Discoloration: Leaves develop a bronze or silvery sheen due to cell damage.",
+        "Underside of leaves may show brown or reddish spots.",
+        "Growth Retardation: Overall plant growth is stunted.",
+        "In severe cases, shoot die-back can occur.",
+        "Fruit Damage: Fruits develop corky, brown spots and may become deformed.",
+        "Fruit quality and yield are significantly reduced."
+      ],
+      "management": [
+        "Early detection is crucial for effective management as broad mites multiply rapidly.",
+        "Life cycle and behavior of broad mites to understand their spread and timing of control measures.",
+        "Favorable conditions for broad mite infestation (e.g., high temperature, humidity).",
+        "Prevention strategies such as crop rotation, sanitation, and resistant varieties.",
+        "Integrated pest management (IPM) approaches, including biological control options.",
+        "Chemical control measures (when necessary) with specific recommendations for chili crops.",
+        "Emamectine Benzoate 5.0% SG;",
+        "Spiromesifen 22.9% SC;",
+        "Propargite 57.0% EC;",
+        "Lambda-Cyhalothrin 5.0% EC."
+      ],
+      "alsoFoundIn": ["Cotton", "Grape", "Bean", "Citrus", "Brinjal", "Cucumber", "Papaya", "Other"],
+      "imageResId": "disease_broad_mites"
+    },
+    {
+      "name": "Chili Leaf Curl Virus",
+      "scientificName": "ChiLCV",
+      "symptoms": [
+        "Curling of the leaves, often becoming wrinkled and puckered.",
+        "Reduction of leaf size, veins may become prominent and thickened.",
+        "Leaves develop a yellowish or pale green color.",
+        "Stunting of plants, resulting in a bushy appearance, internodes are shortened.",
+        "Reduced crop yield, fruits may be small, deformed, or fail to develop.",
+        "Older leaves become leathery and brittle, and may drop prematurely."
+      ],
+      "management": [
+        "Timely management and spraying the crop to control whiteflies.",
+        "Pyriproxyfen 10.0% EC;",
+        "Beta-Cyfluthrin 8.49%, Imidacloprid 19.81% OD;",
+        "Imidacloprid 20% SL;",
+        "Diafenthiuron 25.0%, Pyriproxyfen 5.0% SE;",
+        "Fenpropathrin 30.0% EC;",
+        "Uprooting and destruction of the plants prevent the spread of the disease.",
+        "Plant chili varieties known to be resistant or tolerant to ChiLCV."
+      ],
+      "alsoFoundIn": ["Tomato"],
+      "imageResId": "disease_chili_leaf_curl_virus"
+    }
+  ]
+}
